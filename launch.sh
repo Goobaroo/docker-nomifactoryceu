@@ -11,9 +11,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f nomi-ceu-1.6.1a-server.zip ]]; then
+if ! [[ -f nomi-ceu-1.6.1-beta-4-server.zip ]]; then
 	rm -fr bansoukou config config-overrides groovy libraries local mods scripts *.jar *.zip
-	curl -Lo nomi-ceu-1.6.1a-server.zip 'https://edge.forgecdn.net/files/4724/274/nomi-ceu-1.6.1a-server.zip' && unzip -u -o nomi-ceu-1.6.1a-server.zip -d /data
+	curl -Lo nomi-ceu-1.6.1-beta-4-server.zip 'https://edge.forgecdn.net/files/4663/233/nomi-ceu-1.6.1-beta-4-server.zip' && unzip -u -o nomi-ceu-1.6.1-beta-4-server.zip -d /data
 fi
 
 if [[ -n "$MOTD" ]]; then
