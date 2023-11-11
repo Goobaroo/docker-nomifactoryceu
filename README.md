@@ -1,4 +1,4 @@
-# [1.7-alpha-1](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) on Curseforge
+# [Nomifactory CEu](https://www.curseforge.com/minecraft/modpacks/nomi-ceu) on Curseforge
 
 <!-- toc -->
 
@@ -18,7 +18,7 @@
 
 This container is primaryily built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
 
-The docker on first run will download the same version as tagged of 1.7-alpha-1 and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of Nomifactory CEu and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will simply start the server.
 
@@ -35,7 +35,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 These environment variables can be set at run time to override their defaults.
 
 * JVM_OPTS "-Xms2048m -Xmx4096m"
-* MOTD "1.7-alpha-1 Server Powered by Docker"
+* MOTD "Nomifactory CEu Server Powered by Docker"
 * LEVEL world
 
 ### Adding Minecraft Operators
