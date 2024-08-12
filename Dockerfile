@@ -1,6 +1,6 @@
 FROM openjdk:8u312-jre-buster
 
-LABEL version="1.7-beta-5"
+LABEL version="1.7-beta-6"
 
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
