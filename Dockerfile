@@ -5,7 +5,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="Nomifactory CEu"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/1168/150/638738915756848436.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=Nomifactory-CEu:25565
+LABEL homepage.widget.url=udp://Nomifactory-CEu:25565
 RUN apt-get update && apt-get install -y curl unzip && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
