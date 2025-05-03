@@ -1,6 +1,6 @@
 FROM openjdk:8u312-jre-buster
 
-LABEL version="1.7.5"
+LABEL version="1.6.1b"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="Nomifactory CEu"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/1168/150/638738915756848436.png"
