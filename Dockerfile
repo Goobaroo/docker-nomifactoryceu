@@ -1,4 +1,4 @@
-FROM openjdk:8u312-jre-buster
+FROM openjdk:8u312-jre
 
 LABEL version="1.7.5"
 LABEL homepage.group=Minecraft
